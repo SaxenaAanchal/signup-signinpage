@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    
+ }
+
+body
+{
+    background:linear-gradient(to right,rgb(39, 38, 38),rgb(237, 250, 250));
+}
+
+
+h1{
+    font-weight: bold;
+    color: black;
+    font-size: 80px;
+    margin-top: 25px;
+    position: relative;
+    
+}
+
+.group
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+.group h1:before
+{
+    content:"";
+    position: absolute;
+    top:110%;
+    left:0;
+    width:0 ;
+    height: 2px;
+    border-bottom: 3px solid black;
+    transition: 0.4s linear;
+}
+
+
+
+.group h1:hover:before
+{
+width: 100%;
+}
+
+h1:hover
+{
+    font-size:90px ;
+}
+
+p
+{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.group2
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    
+    
+}
+
+.group3
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    
+    
+}
+
+.group4
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 30px;
+}
+
+.group4 h3 a
+{
+    color:black;
+    font-weight: bold;
+}
+
+
+.btn1
+{
+    border: none;
+    outline: none;
+    width: 10%;
+    height:40px ;
+    background: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 9px;
+}
+
+.btn1:hover
+{
+    background:white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+
+#map
+{
+    height: 400px;
+    width:50%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 16px 16px 22px black;
+}
+
+#map:hover
+{
+    box-shadow:0 10px 20px black;
+    height: 430px;
+    width:60%;
+}
